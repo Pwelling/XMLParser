@@ -1,0 +1,57 @@
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #808080;
+}
+
+/* General styling */
+h1 {
+	
+}
+/* The table containing the product details */
+.productDetails {
+	width: 600px;
+}
+
+.productDetails th{
+	background-color: #f0f5f5;
+}
+
+.productDetails td{
+	padding-left: 5px;
+}
+
+tr:hover{
+	color : #000000;
+}
+span.productEan:hover{
+	color: #990000;
+}
+
+.productDetails th{
+	width: 100px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 3px;
+}
+
+tr.Seperator {
+	line-height:2px;
+}
+tr.Seperator td{
+	background-color: #808080;
+	/*border-bottom: 1px dotted #808080;*/
+	border-radius: 3px;
+}
+.lineData{
+	display:block;
+}
+
+/* The seperator-div */
+.seperatorDiv {
+	display:block;
+	background-color: #808080;
+	height: 5px;
+	width: 600px;
+	border-radius: 3px;
+}
+

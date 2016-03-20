@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ICECAT-interface SYSTEM "http://data.icecat.biz/dtd/files.index.dtd">
+<ICECAT-interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://data.icecat.biz/xsd/files.index.xsd">
+  <files.index Generated="20150302045112">
+    <file path="export/level4/NL/30114.xml" Product_ID="30114" Updated="20150301102709" Quality="ICECAT" Supplier_id="5" Prod_ID="VCT-R640" Catid="587" On_Market="1" Model_Name="Lightweight Tripod VCT-R640" Product_View="32767" HighPic="http://images.icecat.biz/img/norm/high/30114-Sony.jpg" HighPicSize="20782" HighPicWidth="320" HighPicHeight="300" Date_Added="20050715000000">
+      <M_Prod_ID>ACLS5<b>test</b>.CEE</M_Prod_ID>
+      <EAN_UPCS>
+        <EAN_UPC Value="4901780776467" />
+        <EAN_UPC Value="5053460903188" />
+      </EAN_UPCS>
+      <Country_Markets>
+        <Country_Market Value="PL" />
+        <Country_Market Value="IT" />
+        <Country_Market Value="DE" />
+        <Country_Market Value="GB" />
+        <Country_Market Value="US" />
+        <Country_Market Value="ES" />
+        <Country_Market Value="NL" />
+        <Country_Market Value="FR" />
+        <Country_Market Value="ZA" />
+      </Country_Markets>
+      <TryCData>
+        <![CDATA[cdata text & > hoi]]>
+      </TryCData>
+    </file>
+    <file path="export/level4/NL/44673.xml" Product_ID="44673" Updated="20150301103435" Quality="ICECAT" Supplier_id="5" Prod_ID="AC-LS5" Catid="827" On_Market="1" Model_Name="Portable AC Adapter AC-LS5" Product_View="32767" HighPic="http://images.icecat.biz/img/norm/high/44673-Sony.jpg" HighPicSize="19531" HighPicWidth="320" HighPicHeight="240" Date_Added="20050715000000">
+      <M_Prod_ID>ACLS5.CEE</M_Prod_ID>
+      <EAN_UPCS>
+        <EAN_UPC Value="4901780811793" />
+        <EAN_UPC Value="0027242620353" />
+        <EAN_UPC Value="4901780811786" />
+        <EAN_UPC Value="4901780936588" />
+      </EAN_UPCS>
+      <Country_Markets>
+        <Country_Market Value="FR" />
+        <Country_Market Value="ES" />
+        <Country_Market Value="GB" />
+        <Country_Market Value="SE" />
+        <Country_Market Value="US" />
+        <Country_Market Value="IT" />
+        <Country_Market Value="NL" />
+        <Country_Market Value="BE" />
+        <Country_Market Value="NO" />
+        <Country_Market Value="CZ" />
+        <Country_Market Value="AT" />
+        <Country_Market Value="DE" />
+        <Country_Market Value="DK" />
+      </Country_Markets>
+    </file>
+    <file path="export/level4/NL/77065.xml" Product_ID="77065" Updated="20150301104356" Quality="ICECAT" Supplier_id="5" Prod_ID="RM-VD1" Catid="585" On_Market="0" Model_Name="Tripod remote commander" Product_View="16647" HighPic="http://images.icecat.biz/img/norm/high/77065-Sony.jpg" HighPicSize="20375" HighPicWidth="320" HighPicHeight="240" Date_Added="20050715000000"></file>
+    <file path="export/level4/NL/107701.xml" Product_ID="107701" Updated="20150301104428" Quality="ICECAT" Supplier_id="5" Prod_ID="DCC-L50B" Catid="827" On_Market="1" Model_Name="DC Car Battery Adapter" Product_View="32767" HighPic="" HighPicSize="0" HighPicWidth="0" HighPicHeight="0" Date_Added="20050715000000">
+      <M_Prod_ID>DCCL50BCE</M_Prod_ID>
+      <M_Prod_ID>DCCL50B.CE</M_Prod_ID>
+      <M_Prod_ID>DCCL50B</M_Prod_ID>
+      <EAN_UPCS>
+        <EAN_UPC Value="0027242612242" />
+        <EAN_UPC Value="4901780787401" />
+      </EAN_UPCS>
+      <Country_Markets>
+        <Country_Market Value="CA" />
+        <Country_Market Value="ZA" />
+        <Country_Market Value="NL" />
+      </Country_Markets>
+    </file>
+  </files.index>
+</ICECAT-interface>

@@ -1,0 +1,810 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cutBuffer>
+	<versionInfo vendorKey='VendorFile' appKey='VendorFile.app' appVersion='7.0.0' bskXmlVersion='1.7.1' bskVersion='1.17.0' sessionId='77853a8f-c3cd-428e-9c51-529a7deeb8ca'/>
+	<items>
+		<bskArticle basketId='4164275e-1484-438d-96bd-06e4f0836e3c' itemType='BasketArticle' updateState='Unknown'>
+			<manufacturer id='CBV'>
+				<name lang='  '>Company BV</name>
+			</manufacturer>
+			<series id='VL'>
+				<name lang='  '>Viewlite</name>
+			</series>
+			<artNr type='base'>Desk_Installation</artNr>
+			<artNr type='final' default='1'>VLTSB5DCBC1111I</artNr>
+			<artNr type='varcode'>VLTSB5DCBC1111I@S B 5 D C B C 1 1 1 1 I Yes</artNr>
+			<artNr type='ofmlvarcode'>DESK_INSTALLATION.Colour_Scheme=S;DESK_INSTALLATION.Mount_Type=B;DESK_INSTALLATION.Post_Type=5;DESK_INSTALLATION.Position_1=D;DESK_INSTALLATION.Position_2=C;DESK_INSTALLATION.Position_3=B;DESK_INSTALLATION.Position_4=C;DESK_INSTALLATION.QR_Position_1=1;DESK_INSTALLATION.QR_Position_2=1;DESK_INSTALLATION.QR_Position_3=1;DESK_INSTALLATION.QR_Position_4=1;DESK_INSTALLATION.Packaging=I;DESK_INSTALLATION.Screen=Yes</artNr>
+			<description type='short' default='0'>
+				<text lang='en'>Monitor arm (desk mounted)</text>
+			</description>
+			<description type='long' default='1'>
+				<text lang='en'>Monitor arm (desk mounted)</text>
+			</description>
+			<description type='features' default='0'>
+				<text lang='en'>Colour: Silver/white
+					Mount type: Desk clamp M (5-40mm)
+					Post type: Pole 750mm
+					Arm type pos. 1: Dynamic double extension (pole mounted)
+					Arm type pos. 2: Double extension down (pole mounted)
+					Arm type pos. 3: Double extension (pole mounted)
+					Arm type pos. 4: Double extension down (pole mounted)
+					Device mount type pos. 1: VESA plate 100x100mm (incl. 75x75mm)
+					Device mount type pos. 2: VESA plate 100x100mm (incl. 75x75mm)
+					Device mount type pos. 3: VESA plate 100x100mm (incl. 75x75mm)
+					Device mount type pos. 4: VESA plate 100x100mm (incl. 75x75mm)
+					Packaging Type: Individual
+					Show device(s): Yes</text>
+				<text lang='de'>Colour_Scheme: S
+					Mount_Type: B
+					Post_Type: 5
+					Position_1: D
+					Position_2: C
+					Position_3: B
+					Position_4: C
+					QR_Position_1: 1
+					QR_Position_2: 1
+					QR_Position_3: 1
+					QR_Position_4: 1
+					Packaging: I
+					Screen: Yes</text>
+				<text lang='es'>Colour_Scheme: S
+					Mount_Type: B
+					Post_Type: 5
+					Position_1: D
+					Position_2: C
+					Position_3: B
+					Position_4: C
+					QR_Position_1: 1
+					QR_Position_2: 1
+					QR_Position_3: 1
+					QR_Position_4: 1
+					Packaging: I
+					Screen: Yes</text>
+				<text lang='fr'>Colour_Scheme: S
+					Mount_Type: B
+					Post_Type: 5
+					Position_1: D
+					Position_2: C
+					Position_3: B
+					Position_4: C
+					QR_Position_1: 1
+					QR_Position_2: 1
+					QR_Position_3: 1
+					QR_Position_4: 1
+					Packaging: I
+					Screen: Yes</text>
+				<text lang='it'>Colour_Scheme: S
+					Mount_Type: B
+					Post_Type: 5
+					Position_1: D
+					Position_2: C
+					Position_3: B
+					Position_4: C
+					QR_Position_1: 1
+					QR_Position_2: 1
+					QR_Position_3: 1
+					QR_Position_4: 1
+					Packaging: I
+					Screen: Yes</text>
+				<text lang='nl'>Colour_Scheme: S
+					Mount_Type: B
+					Post_Type: 5
+					Position_1: D
+					Position_2: C
+					Position_3: B
+					Position_4: C
+					QR_Position_1: 1
+					QR_Position_2: 1
+					QR_Position_3: 1
+					QR_Position_4: 1
+					Packaging: I
+					Screen: Yes</text>
+			</description>
+			<features>
+				<feature name='Product_Group' value='VLT' flags='0' id='feature.0'>
+					<nameText lang='en'>Product group</nameText>
+					<nameText lang='de'>Product_Group</nameText>
+					<nameText lang='es'>Product_Group</nameText>
+					<nameText lang='fr'>Product_Group</nameText>
+					<nameText lang='it'>Product_Group</nameText>
+					<nameText lang='nl'>Product_Group</nameText>
+					<valueText lang='en'>Viewlite</valueText>
+					<valueText lang='de'>VLT</valueText>
+					<valueText lang='es'>VLT</valueText>
+					<valueText lang='fr'>VLT</valueText>
+					<valueText lang='it'>VLT</valueText>
+					<valueText lang='nl'>VLT</valueText>
+				</feature>
+				<feature name='Colour_Scheme' value='S' flags='1' id='feature.1'>
+					<nameText lang='en'>Colour</nameText>
+					<nameText lang='de'>Colour_Scheme</nameText>
+					<nameText lang='es'>Colour_Scheme</nameText>
+					<nameText lang='fr'>Colour_Scheme</nameText>
+					<nameText lang='it'>Colour_Scheme</nameText>
+					<nameText lang='nl'>Colour_Scheme</nameText>
+					<valueText lang='en'>Silver/white</valueText>
+					<valueText lang='de'>S</valueText>
+					<valueText lang='es'>S</valueText>
+					<valueText lang='fr'>S</valueText>
+					<valueText lang='it'>S</valueText>
+					<valueText lang='nl'>S</valueText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Colour</descrField0>
+							<descrField1>Silver/white</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>Colour_Scheme</descrField0>
+							<descrField1>S</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>Colour_Scheme</descrField0>
+							<descrField1>S</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>Colour_Scheme</descrField0>
+							<descrField1>S</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>Colour_Scheme</descrField0>
+							<descrField1>S</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>Colour_Scheme</descrField0>
+							<descrField1>S</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='Mount_Type' value='B' flags='1' id='feature.2'>
+					<nameText lang='en'>Mount type</nameText>
+					<nameText lang='de'>Mount_Type</nameText>
+					<nameText lang='es'>Mount_Type</nameText>
+					<nameText lang='fr'>Mount_Type</nameText>
+					<nameText lang='it'>Mount_Type</nameText>
+					<nameText lang='nl'>Mount_Type</nameText>
+					<valueText lang='en'>Desk clamp M (5-40mm)</valueText>
+					<valueText lang='de'>B</valueText>
+					<valueText lang='es'>B</valueText>
+					<valueText lang='fr'>B</valueText>
+					<valueText lang='it'>B</valueText>
+					<valueText lang='nl'>B</valueText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Mount type</descrField0>
+							<descrField1>Desk clamp M (5-40mm)</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>Mount_Type</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>Mount_Type</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>Mount_Type</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>Mount_Type</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>Mount_Type</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='Post_Type' value='5' flags='1' id='feature.3'>
+					<nameText lang='en'>Post type</nameText>
+					<nameText lang='de'>Post_Type</nameText>
+					<nameText lang='es'>Post_Type</nameText>
+					<nameText lang='fr'>Post_Type</nameText>
+					<nameText lang='it'>Post_Type</nameText>
+					<nameText lang='nl'>Post_Type</nameText>
+					<valueText lang='en'>Pole 750mm</valueText>
+					<valueText lang='de'>5</valueText>
+					<valueText lang='es'>5</valueText>
+					<valueText lang='fr'>5</valueText>
+					<valueText lang='it'>5</valueText>
+					<valueText lang='nl'>5</valueText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Post type</descrField0>
+							<descrField1>Pole 750mm</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>Post_Type</descrField0>
+							<descrField1>5</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>Post_Type</descrField0>
+							<descrField1>5</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>Post_Type</descrField0>
+							<descrField1>5</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>Post_Type</descrField0>
+							<descrField1>5</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>Post_Type</descrField0>
+							<descrField1>5</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='Position_1' value='D' flags='1' id='feature.4'>
+					<nameText lang='en'>Arm type pos. 1</nameText>
+					<nameText lang='de'>Position_1</nameText>
+					<nameText lang='es'>Position_1</nameText>
+					<nameText lang='fr'>Position_1</nameText>
+					<nameText lang='it'>Position_1</nameText>
+					<nameText lang='nl'>Position_1</nameText>
+					<valueText lang='en'>Dynamic double extension (pole mounted)</valueText>
+					<valueText lang='de'>D</valueText>
+					<valueText lang='es'>D</valueText>
+					<valueText lang='fr'>D</valueText>
+					<valueText lang='it'>D</valueText>
+					<valueText lang='nl'>D</valueText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Arm type pos. 1</descrField0>
+							<descrField1>Dynamic double extension (pole mounted)</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>Position_1</descrField0>
+							<descrField1>D</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>Position_1</descrField0>
+							<descrField1>D</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>Position_1</descrField0>
+							<descrField1>D</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>Position_1</descrField0>
+							<descrField1>D</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>Position_1</descrField0>
+							<descrField1>D</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='Position_2' value='C' flags='1' id='feature.5'>
+					<nameText lang='en'>Arm type pos. 2</nameText>
+					<nameText lang='de'>Position_2</nameText>
+					<nameText lang='es'>Position_2</nameText>
+					<nameText lang='fr'>Position_2</nameText>
+					<nameText lang='it'>Position_2</nameText>
+					<nameText lang='nl'>Position_2</nameText>
+					<valueText lang='en'>Double extension down (pole mounted)</valueText>
+					<valueText lang='de'>C</valueText>
+					<valueText lang='es'>C</valueText>
+					<valueText lang='fr'>C</valueText>
+					<valueText lang='it'>C</valueText>
+					<valueText lang='nl'>C</valueText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Arm type pos. 2</descrField0>
+							<descrField1>Double extension down (pole mounted)</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>Position_2</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>Position_2</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>Position_2</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>Position_2</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>Position_2</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='Position_3' value='B' flags='1' id='feature.6'>
+					<nameText lang='en'>Arm type pos. 3</nameText>
+					<nameText lang='de'>Position_3</nameText>
+					<nameText lang='es'>Position_3</nameText>
+					<nameText lang='fr'>Position_3</nameText>
+					<nameText lang='it'>Position_3</nameText>
+					<nameText lang='nl'>Position_3</nameText>
+					<valueText lang='de'>B</valueText>
+					<valueText lang='en'>Double extension (pole mounted)</valueText>
+					<valueText lang='es'>B</valueText>
+					<valueText lang='fr'>B</valueText>
+					<valueText lang='it'>B</valueText>
+					<valueText lang='nl'>B</valueText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Arm type pos. 3</descrField0>
+							<descrField1>Double extension (pole mounted)</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>Position_3</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>Position_3</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>Position_3</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>Position_3</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>Position_3</descrField0>
+							<descrField1>B</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='Position_4' value='C' flags='1' id='feature.7' valueText='feature.5'>
+					<nameText lang='en'>Arm type pos. 4</nameText>
+					<nameText lang='de'>Position_4</nameText>
+					<nameText lang='es'>Position_4</nameText>
+					<nameText lang='fr'>Position_4</nameText>
+					<nameText lang='it'>Position_4</nameText>
+					<nameText lang='nl'>Position_4</nameText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Arm type pos. 4</descrField0>
+							<descrField1>Double extension down (pole mounted)</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>Position_4</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>Position_4</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>Position_4</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>Position_4</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>Position_4</descrField0>
+							<descrField1>C</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='QR_Position_1' value='1' flags='1' id='feature.8'>
+					<nameText lang='en'>Device mount type pos. 1</nameText>
+					<nameText lang='de'>QR_Position_1</nameText>
+					<nameText lang='es'>QR_Position_1</nameText>
+					<nameText lang='fr'>QR_Position_1</nameText>
+					<nameText lang='it'>QR_Position_1</nameText>
+					<nameText lang='nl'>QR_Position_1</nameText>
+					<valueText lang='en'>VESA plate 100x100mm (incl. 75x75mm)</valueText>
+					<valueText lang='de'>1</valueText>
+					<valueText lang='es'>1</valueText>
+					<valueText lang='fr'>1</valueText>
+					<valueText lang='it'>1</valueText>
+					<valueText lang='nl'>1</valueText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Device mount type pos. 1</descrField0>
+							<descrField1>VESA plate 100x100mm (incl. 75x75mm)</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>QR_Position_1</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>QR_Position_1</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>QR_Position_1</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>QR_Position_1</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>QR_Position_1</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='QR_Position_2' value='1' flags='1' id='feature.9' valueText='feature.8'>
+					<nameText lang='en'>Device mount type pos. 2</nameText>
+					<nameText lang='de'>QR_Position_2</nameText>
+					<nameText lang='es'>QR_Position_2</nameText>
+					<nameText lang='fr'>QR_Position_2</nameText>
+					<nameText lang='it'>QR_Position_2</nameText>
+					<nameText lang='nl'>QR_Position_2</nameText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Device mount type pos. 2</descrField0>
+							<descrField1>VESA plate 100x100mm (incl. 75x75mm)</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>QR_Position_2</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>QR_Position_2</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>QR_Position_2</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>QR_Position_2</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>QR_Position_2</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='QR_Position_3' value='1' flags='1' id='feature.10' valueText='feature.8'>
+					<nameText lang='en'>Device mount type pos. 3</nameText>
+					<nameText lang='de'>QR_Position_3</nameText>
+					<nameText lang='es'>QR_Position_3</nameText>
+					<nameText lang='fr'>QR_Position_3</nameText>
+					<nameText lang='it'>QR_Position_3</nameText>
+					<nameText lang='nl'>QR_Position_3</nameText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Device mount type pos. 3</descrField0>
+							<descrField1>VESA plate 100x100mm (incl. 75x75mm)</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>QR_Position_3</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>QR_Position_3</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>QR_Position_3</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>QR_Position_3</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>QR_Position_3</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='QR_Position_4' value='1' flags='1' id='feature.11' valueText='feature.8'>
+					<nameText lang='en'>Device mount type pos. 4</nameText>
+					<nameText lang='de'>QR_Position_4</nameText>
+					<nameText lang='es'>QR_Position_4</nameText>
+					<nameText lang='fr'>QR_Position_4</nameText>
+					<nameText lang='it'>QR_Position_4</nameText>
+					<nameText lang='nl'>QR_Position_4</nameText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Device mount type pos. 4</descrField0>
+							<descrField1>VESA plate 100x100mm (incl. 75x75mm)</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>QR_Position_4</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>QR_Position_4</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>QR_Position_4</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>QR_Position_4</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>QR_Position_4</descrField0>
+							<descrField1>1</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='Pole_Height' value='750' flags='0' id='feature.12'>
+					<nameText lang='en'>Not visible</nameText>
+					<nameText lang='de'>Pole_Height</nameText>
+					<nameText lang='es'>Pole_Height</nameText>
+					<nameText lang='fr'>Pole_Height</nameText>
+					<nameText lang='it'>Pole_Height</nameText>
+					<nameText lang='nl'>Not_Visible</nameText>
+					<valueText lang='en'>750</valueText>
+					<valueText lang='de'>750</valueText>
+					<valueText lang='es'>750</valueText>
+					<valueText lang='fr'>750</valueText>
+					<valueText lang='it'>750</valueText>
+					<valueText lang='nl'>750</valueText>
+				</feature>
+				<feature name='Packaging' value='I' flags='1' id='feature.13'>
+					<nameText lang='en'>Packaging Type</nameText>
+					<nameText lang='de'>Packaging</nameText>
+					<nameText lang='es'>Packaging</nameText>
+					<nameText lang='fr'>Packaging</nameText>
+					<nameText lang='it'>Packaging</nameText>
+					<nameText lang='nl'>Packaging</nameText>
+					<valueText lang='en'>Individual</valueText>
+					<valueText lang='de'>I</valueText>
+					<valueText lang='es'>I</valueText>
+					<valueText lang='fr'>I</valueText>
+					<valueText lang='it'>I</valueText>
+					<valueText lang='nl'>I</valueText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Packaging Type</descrField0>
+							<descrField1>Individual</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>Packaging</descrField0>
+							<descrField1>I</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>Packaging</descrField0>
+							<descrField1>I</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>Packaging</descrField0>
+							<descrField1>I</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>Packaging</descrField0>
+							<descrField1>I</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>Packaging</descrField0>
+							<descrField1>I</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+				<feature name='Screen' value='Yes' flags='1' id='feature.14'>
+					<nameText lang='en'>Show device(s)</nameText>
+					<nameText lang='de'>Screen</nameText>
+					<nameText lang='es'>Screen</nameText>
+					<nameText lang='fr'>Screen</nameText>
+					<nameText lang='it'>Screen</nameText>
+					<nameText lang='nl'>Screen</nameText>
+					<valueText lang='en'>Yes</valueText>
+					<valueText lang='de'>Yes</valueText>
+					<valueText lang='es'>Yes</valueText>
+					<valueText lang='fr'>Yes</valueText>
+					<valueText lang='it'>Yes</valueText>
+					<valueText lang='nl'>Yes</valueText>
+					<descrText lang='en'>
+						<descrLine>
+							<descrField0>Show device(s)</descrField0>
+							<descrField1>Yes</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='de'>
+						<descrLine>
+							<descrField0>Screen</descrField0>
+							<descrField1>Yes</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='es'>
+						<descrLine>
+							<descrField0>Screen</descrField0>
+							<descrField1>Yes</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='fr'>
+						<descrLine>
+							<descrField0>Screen</descrField0>
+							<descrField1>Yes</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='it'>
+						<descrLine>
+							<descrField0>Screen</descrField0>
+							<descrField1>Yes</descrField1>
+						</descrLine>
+					</descrText>
+					<descrText lang='nl'>
+						<descrLine>
+							<descrField0>Screen</descrField0>
+							<descrField1>Yes</descrField1>
+						</descrLine>
+					</descrText>
+				</feature>
+			</features>
+			<itemPrice type='purchase' pd='1' currency='EUR' value='495.0'/>
+			<itemPrice type='purchase' currency='EUR' value='495.0'/>
+			<itemPrice type='sale' pd='1' currency='EUR' value='495.0'/>
+			<itemPrice type='sale' currency='EUR' value='495.0'/>
+			<priceComponents>
+				<priceComponent currency='%' value='13.13131313131313131313131313131313'>
+					<name>s.58.0332_s.58.0240</name>
+				</priceComponent>
+				<priceComponent currency='%' value='28.28282828282828282828282828282828'>
+					<name>b.58.0682</name>
+				</priceComponent>
+				<priceComponent currency='%' value='2.02020202020202020202020202020202'>
+					<name>b.58.0000</name>
+				</priceComponent>
+				<priceComponent currency='%' value='16.16161616161616161616161616161616'>
+					<name>b.58.0422</name>
+				</priceComponent>
+				<priceComponent currency='%' value='2.02020202020202020202020202020202'>
+					<name>b.58.0000</name>
+				</priceComponent>
+				<priceComponent currency='%' value='16.16161616161616161616161616161616'>
+					<name>b.58.0412</name>
+				</priceComponent>
+				<priceComponent currency='%' value='2.02020202020202020202020202020202'>
+					<name>b.58.0000</name>
+				</priceComponent>
+				<priceComponent currency='%' value='16.16161616161616161616161616161616'>
+					<name>b.58.0422</name>
+				</priceComponent>
+				<priceComponent currency='%' value='2.02020202020202020202020202020202'>
+					<name>b.58.0000</name>
+				</priceComponent>
+				<priceComponent currency='%' value='2.02020202020202020202020202020202'>
+					<name>Packaging_I</name>
+				</priceComponent>
+			</priceComponents>
+			<predefVendorDiscount incr='1' relative='0.0' currency='EUR' value='0.0'/>
+			<taxInfos/>
+			<pdInfo pdbType='ocd' pkgName='::ofml::oi' manufacturerId='DFX' seriesId='VL' progId='@dfx_vl'>
+				<ocd/>
+			</pdInfo>
+			<packInfos/>
+			<artCalc>
+				<vendorDiscount label='Vendor Discount' incr='1' inOrderList='1' predefined='1'/>
+				<purchasePrice/>
+				<itemDiscount label='Korting 1' incr='1' inOrderList='1'/>
+				<itemDiscount label='Korting 2' incr='1' inOrderList='1'/>
+			</artCalc>
+			<addStateCode type='OiOdbPlElement'>[[@Meta,"GVL_Product_Group=@VL_Product_Group_VLT,GVL_Type=@VL_Type_Desk_Installation"]]</addStateCode>
+			<catalogInfo id='' version='' artNr='' varCode=''/>
+		</bskArticle>
+	</items>
+</cutBuffer>
