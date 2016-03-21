@@ -13,8 +13,9 @@ class XmlParser {
 	function __construct($xmlFile) {
 		$this -> xmlFile = $xmlFile;
 		$this -> checkFileExist();
-		$this -> readFile();
-		$this -> parseXml();
+		$this->parseXml2();
+		// $this -> readFile();
+		// $this -> parseXml();
 	}
 
 	/**
@@ -67,7 +68,16 @@ class XmlParser {
 	 */
 	private function parseXml() {
 		if ($this -> xml !== false) {
+			echo '<prE>' . print_r($this -> xmlToObject(), true) . '</prE>';
 			$this -> xmlArray = $this -> xmlToObject();
+		}
+	}
+
+	private function parseXml2() {
+		if ($this -> fileExists === true) {
+			$xml = new XMLReader();
+			$xml -> open($this -> pathToXmlFiles . $this -> xmlFile);
+			$this -> xmlArray = $this -> xml2assoc($xml,'root');
 		}
 	}
 
@@ -97,8 +107,8 @@ class XmlParser {
 		$stack = array();
 		foreach ($nodes as $node) {
 			//Fix for the node TryCData
-			if($node['tag'] == 'TryCData'){
-				$node['value'] = '&lt;![CDATA['.$node['value'].']]&gt;';
+			if ($node['tag'] == 'TryCData') {
+				$node['value'] = '&lt;![CDATA[' . $node['value'] . ']]&gt;';
 			}
 			//Fix for the cdata-type returned by the parser
 			if ($node['type'] == 'cdata') {
@@ -122,8 +132,86 @@ class XmlParser {
 			}
 		}
 		//now checking if there is a node that contained a value but ended up with children (see the cdata-fix)
-		$arr[0] = $this->correctArray($arr[0]);
+		$arr[0] = $this -> correctArray($arr[0]);
 		return $arr;
+	}
+
+	/**
+	 * \brief Another function to parse an xml, but this time to read the file while parsing, especialy fro large files. Plucked from php.net and adjusted to my needs
+	 */
+	function xml2assoc($xml, $name) {
+		$tree = null;
+		while ($xml -> read()) {
+			if ($xml -> nodeType == XMLReader::END_ELEMENT) {
+				return $tree;
+			} else if ($xml -> nodeType == XMLReader::ELEMENT && $xml -> isEmptyElement === false) {
+				$node = array();
+				$node['name'] = $xml -> name;
+				$node['attributes'] = array();
+				$node['Value'] = '';
+				if ($xml -> hasAttributes) {
+					$attributes = array();
+					while ($xml -> moveToNextAttribute()) {
+						$attributes[$xml -> name] = $xml -> value;
+					}
+					$node['attributes'] = $attributes;
+				}
+				if ($xml -> isEmptyElement === false) {
+					$children = $this->xml2assoc($xml, $node['name']);
+					$isText = false;
+					if (count($children) > 0) {
+						foreach ($children AS $key => $subArr) {
+							if (isset($subArr['text'])) {
+								$isText = true;
+								break;
+							}
+						}
+					}
+					if ($isText === false) {
+						if($xml->nodeType == XMLReader::CDATA){
+							
+						} else {
+							if(is_array($children)){
+								$node['children'] = $children;
+							}
+						}
+					} else {
+						if (count($children) > 0) {
+							$val = '';
+							foreach ($children AS $key => $subArr) {
+								if (count($subArr) == '1') {
+									if (isset($subArr['text'])) {
+										$val .= $subArr['text'];
+									} else if (isset($subArr['name'])) {
+										$val = '<' . $subArr['name'] . ' />';
+									}
+								} else {
+									$val .= '<' . $subArr['name'] . '>' . $subArr['Value'] . '</' . $subArr['name'] . '>';
+								}
+							}
+							$node['Value'] = $val;
+						}
+					}
+				}
+				$tree[] = $node;
+			} else if ($xml -> nodeType == XMLReader::TEXT) {
+				$node = array();
+				$node['text'] = $xml -> value;
+				$tree[] = $node;
+			} else if ($xml -> nodeType == XMLReader::ELEMENT && $xml -> isEmptyElement === true) {
+				$node = array();
+				$node['name'] = $xml -> name;
+				if ($xml -> hasAttributes) {
+					$attributes = array();
+					while ($xml -> moveToNextAttribute()) {
+						$attributes[$xml -> name] = $xml -> value;
+					}
+					$node['attributes'] = $attributes;
+				}
+				$tree[] = $node;
+			}
+		}
+		return $tree;
 	}
 
 	/**
@@ -133,9 +221,9 @@ class XmlParser {
 		if (isset($arr['children'])) {
 			if (trim($arr['Value']) != '') {
 				$tmp = $arr['Value'];
-				foreach($arr['children'] AS $key=>$subArr){
-					if($subArr['name'] != $arr['name']){
-						$tmp .= '&lt;'.$subArr['name'].'&gt;'.$subArr['Value'].'&lt;/'.$subArr['name'].'&gt;';
+				foreach ($arr['children'] AS $key => $subArr) {
+					if ($subArr['name'] != $arr['name']) {
+						$tmp .= '&lt;' . $subArr['name'] . '&gt;' . $subArr['Value'] . '&lt;/' . $subArr['name'] . '&gt;';
 					} else {
 						$tmp .= $subArr['Value'];
 					}
@@ -143,8 +231,8 @@ class XmlParser {
 				unset($arr['children']);
 				$arr['Value'] = $tmp;
 			} else {
-				foreach($arr['children'] AS $key=>$subArr){
-					$arr['children'][$key] = $this->correctArray($subArr);
+				foreach ($arr['children'] AS $key => $subArr) {
+					$arr['children'][$key] = $this -> correctArray($subArr);
 				}
 			}
 		}
